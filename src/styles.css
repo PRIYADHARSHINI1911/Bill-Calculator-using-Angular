@@ -1,0 +1,7 @@
+/* Add application styles & imports to this file! */
+body {
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2014/02/01/18/00/money-256312_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

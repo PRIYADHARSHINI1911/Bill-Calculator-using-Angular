@@ -1,0 +1,45 @@
+
+<hello name="{{ name }}"></hello>
+<h2>Welcome to Bill Calculator</h2>
+
+
+<p>Tomato</p>
+
+{{newClass.tomatoCount}}<br>
+<button (click)="increaseTomatoCount()">+</button>
+<button (click)="decreaseTomatoCount()">-</button><br>
+<p>Price {{newClass.tomatoPrice}}</p>
+<p>---------------------------------------------------------------------------</p>
+
+<p>Potato</p>
+
+{{newClass.potatoCount}}<br>
+<button (click)="increasePotatoCount()">+</button>
+<button (click)="decreasePotatoCount()">-</button><br>
+<p>Price {{newClass.potatoPrice}}</p>
+<p>---------------------------------------------------------------------------</p>
+
+<p>Carrot</p>
+{{newClass.carrotCount}}<br>
+<button (click)="increaseCarrotCount()">+</button>
+<button (click)="decreaseCarrotCount()">-</button><br>
+<p>Price {{newClass.carrotPrice}}</p>
+<p>---------------------------------------------------------------------------</p>
+
+<p>Ladies's Finger</p>
+{{newClass.ladiesFingerCount}}<br>
+<button (click)="increaseLFCount()">+</button>
+<button (click)="decreaseLFCount()">-</button><br>
+<p>Price {{newClass.ladiesFingerPrice}}</p>
+<p>---------------------------------------------------------------------------</p>
+
+<p>Beetroot</p>
+{{newClass.beetrootCount}}<br>
+<button (click)="increaseBeetrootCount()">+</button>
+<button (click)="decreaseBeetrootCount()">-</button><br>
+<p>Price {{newClass.beetrootPrice}}</p>
+<p>---------------------------------------------------------------------------</p>
+<button (click) ="total()">Total</button>
+{{newClass.sum}}
+
+<h3>Thank You!</h3>
